@@ -15,6 +15,10 @@ $(document).ready(function(){
       `);
       song.element.click(event => {
         player.playPause(song);
+<<<<<<< HEAD
+=======
+        $('button#play-pause').attr('playState')
+>>>>>>> module-2-checkpoint-13
       });
 
       $('#song-list').append(song.element);
