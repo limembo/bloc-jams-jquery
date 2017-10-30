@@ -15,6 +15,7 @@ class Player {
   }
 
   prettyTime(timeInSeconds) {
+<<<<<<< HEAD
        //store variable for whole seconds and whole minutes using math.floor to round down
        var minutes = Math.floor(timeInSeconds/60);
        var seconds = Math.floor(timeInSeconds%60);
@@ -27,6 +28,20 @@ class Player {
        return (minutes + ":" + seconds);
      }
   }
+=======
+        //store variable for whole seconds and whole minutes using math.floor to round down
+        var minutes = Math.floor(timeInSeconds/60);
+        var seconds = Math.floor(timeInSeconds%60);
+
+        //return the time in X:XX format
+        if (seconds < 10){
+         return (minutes + ":0" + seconds);
+       }
+        else{
+        return (minutes + ":" + seconds);
+      }
+   }
+>>>>>>> module-2-checkpoint-13
 
   playPause (song = this.currentlyPlaying) {
     if (this.currentlyPlaying !== song) {
