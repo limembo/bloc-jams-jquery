@@ -1,3 +1,5 @@
+# **Bloc Jams**
+
 Bloc Jams is a streaming music player with media queries to determine the viewer's display dimensions and a responsive, grid-based user interface to provide an optimized look for various viewing device display sizes.
 
 The home page features text shadowing and CSS transition animations for a (literally) moving user experience. Graphics from the Ionicons font library are also used here for the musical notes, radio wave, and mobile device images.
